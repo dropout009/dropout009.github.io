@@ -1,4 +1,9 @@
+
+
 # Influence Function
+
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 $$
 \renewcommand{\paren}[1]{\left(#1\right)}
@@ -97,9 +102,9 @@ draw_regression_line(x, y)
 ```
 
 
-    
+​    
 ![png](output_4_0.png)
-    
+​    
 
 
 
@@ -152,9 +157,9 @@ draw_importance(avg_diff)
 ```
 
 
-    
+​    
 ![png](output_6_0.png)
-    
+​    
 
 
 Permutation Feature Importance（PFI）、Partial Dependence（PD）、Accumulated Local Effects（ALE）などの機械学習の解釈手法は、特徴量とモデルの予測値の関係を通じて機械学習モデルを解釈する手法でした。
@@ -422,9 +427,9 @@ draw_scatter_with_line(influence.flatten(), looe.flatten(), "Influence", "LOOE",
 ```
 
 
-    
+​    
 ![png](output_16_0.png)
-    
+​    
 
 
 ## 参考文献
