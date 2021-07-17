@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Influence"
 date: 2021-07-18
 ---
